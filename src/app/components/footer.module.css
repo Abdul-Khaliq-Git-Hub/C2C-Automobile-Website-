@@ -1,0 +1,18 @@
+.footerContainer {
+  color: white;
+  padding: 20px;
+  background-color: #20262f;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerImgContainer img {
+  height: 60px;
+}
+.footerImgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  max-width: 300px;
+}

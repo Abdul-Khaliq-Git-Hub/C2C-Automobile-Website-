@@ -1,0 +1,21 @@
+.featuredListingText h1 {
+  color: #d45e40;
+}
+.carListingContainer {
+  background-color: #20262f;
+  padding: 2% 4%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.links {
+  color: black;
+  text-decoration: none;
+}
+/* @media (max-width: 400px) {
+  .carListingContainer {
+    align-items: center;
+    justify-content: center;
+  }
+} */

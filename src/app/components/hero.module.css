@@ -1,0 +1,35 @@
+.carTextContainer {
+  background-color: white;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  margin-left: 80px;
+}
+.carTextContainer h1 {
+  color: #d45e40;
+  font-size: 60px;
+}
+.carTextContainer p {
+  margin-top: 20px;
+}
+.carTextContainer button {
+  margin-left: 10%;
+  border-radius: 8px;
+  border: none;
+  background-color: #d45e40;
+  color: white;
+  padding: 10px 20px;
+}
+.carContainerImg {
+  width: 700px;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+}
+@media (max-width: 1350px) {
+  .carContainerImg {
+    display: none;
+  }
+}

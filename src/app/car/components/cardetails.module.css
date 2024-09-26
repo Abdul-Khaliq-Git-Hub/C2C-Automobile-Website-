@@ -1,0 +1,95 @@
+.carDetailsPage {
+  display: flex;
+  background-color: #f2f4f5;
+}
+.carDetailsContainer {
+  padding-top: 90px;
+  margin-left: 15%;
+  width: 45%;
+}
+.sellerDetailsContainer {
+  padding-top: 90px;
+  margin-left: 1%;
+}
+
+.carDetails {
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+.carMakeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paintContainer,
+.plateContainer,
+.seatNumberContainer,
+.seatMaterialContainer,
+.ColorContainer,
+.conditionContainer,
+.otherSpecContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phoneBtn {
+  border-radius: 5px;
+  background-color: #d45e40;
+  color: white;
+  border: none;
+  height: 45px;
+}
+.whatsAppBtn {
+  border-radius: 5px;
+  background-color: rgb(40, 167, 69);
+  color: white;
+  border: none;
+  height: 45px;
+}
+.vinBtn {
+  border-radius: 5px;
+  background-color: #20262f;
+  color: white;
+  border: none;
+  height: 45px;
+}
+.btnContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .sellerDetailsContainer {
+    display: none;
+    width: 0%;
+  }
+  .carDetailsContainer {
+    margin-left: 2%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sellerDetailsContainer {
+    display: none;
+  }
+  .carDetailsContainer {
+    margin-left: 2%;
+    width: 100%;
+  }
+  .carDetailsPage {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .carDetailsContainer {
+    margin-left: 2%;
+    width: 70%;
+  }
+}

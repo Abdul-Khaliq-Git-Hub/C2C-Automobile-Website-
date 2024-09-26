@@ -1,0 +1,72 @@
+.navContainer {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #20262f;
+  color: white;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  border: 1px solid black;
+}
+.faviContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ulContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+}
+.ulContainer ul {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.ulContainer li {
+  list-style-type: none;
+  margin: 15px;
+  position: relative;
+}
+
+.ulContainer li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #d45e40;
+  transition: width 0.3s ease;
+}
+
+.ulContainer li:hover::after {
+  width: 100%;
+}
+.langLoginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+.langLoginContainer li {
+  list-style-type: none;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}
+.links:focus,
+.links:active {
+  color: #d45e40;
+}
+.navbar {
+  margin-top: 0; /* Ensure there's no extra margin at the top */
+  padding-top: 0; /* Remove padding if applied */
+}

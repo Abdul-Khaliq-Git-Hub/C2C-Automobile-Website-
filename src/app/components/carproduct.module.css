@@ -1,0 +1,25 @@
+.carProductCard {
+  width: 350px;
+  height: auto;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.carDetailsContainer {
+  padding: 10px;
+}
+.locationContainer {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 900px) {
+  .carProductCard {
+    width: 260px;
+    height: auto;
+  }
+}
